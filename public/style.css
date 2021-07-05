@@ -2,9 +2,13 @@ body{
     margin:0;
     padding:0
 }video{
-    height:250px;
+    height:350px;
     width:300px;
     object-fit: cover;
+    border-radius: 22px;
+    overflow: hidden;
+ 
+    box-shadow: 0 19px 51px 0 rgba(0,0,0,0.16), 0 14px 19px 0 rgba(0,0,0,0.07);
 }
 .main {
     height: 100vh;
@@ -23,7 +27,7 @@ body{
 
 .main__videos {
     flex-grow: 1;
-    background-color: black;
+    background-image: url("background3.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,12 +35,12 @@ body{
 }
 
 .main__controls {
-    background-color: #1C1E20;
+    background-color: #2e0216;
 }
 
 .main__right {
-    background-color: #242324;
-    border-left: 1px solid #3D3D42;
+    background-color: #000000;
+    border-left: 1px solid #00000c;
 }
 
 .main__controls {
@@ -103,9 +107,10 @@ body{
 }
 
 .leave_meeting {
-    color: #EB534B;
+    font-size: 24px;
+    color: #911c5c;
 }
 
 .unmute, .stop {
-    color: #CC3B33;
+    color: #911c5c;
 }
