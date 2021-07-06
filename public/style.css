@@ -3,7 +3,7 @@ body{
     padding:0
 }video{
     height:350px;
-    width:300px;
+    width:400px;
     object-fit: cover;
     border-radius: 22px;
     overflow: hidden;
