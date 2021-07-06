@@ -48,7 +48,7 @@ socket.on('user-connected',(userId) =>
       connectToNewUser(userId, stream);
     },5000
   )
-  connectToNewUser(userId,stream);
+ 
 })
 // input value
 let text = $("input");
