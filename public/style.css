@@ -1,15 +1,18 @@
-body{
-    margin:0;
-    padding:0
-}video{
-    height:350px;
-    width:400px;
+body {
+    margin: 0;
+    padding: 0
+}
+
+video {
+    height: 350px;
+    width: 400px;
     object-fit: cover;
     border-radius: 22px;
     overflow: hidden;
- 
-    box-shadow: 0 19px 51px 0 rgba(0,0,0,0.16), 0 14px 19px 0 rgba(0,0,0,0.07);
+
+    box-shadow: 0 19px 51px 0 rgba(0, 0, 0, 0.16), 0 14px 19px 0 rgba(0, 0, 0, 0.07);
 }
+
 .main {
     height: 100vh;
     display: flex;
@@ -89,7 +92,7 @@ body{
     overflow-y: auto;
 }
 
-.messages{
+.messages {
     color: white;
     list-style: none;
 }
@@ -108,9 +111,10 @@ body{
 
 .leave-meeting {
     font-size: 24px;
-    color: #811a53;
+    color: #9e7dd1;
 }
 
-.unmute, .stop {
+.unmute,
+.stop {
     color: #911c5c;
 }
