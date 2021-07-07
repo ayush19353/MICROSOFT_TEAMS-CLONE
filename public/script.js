@@ -48,7 +48,7 @@ socket.on('user-connected',(userId) =>
       connectToNewUser(userId, stream);
     },5000
   )
-  connectToNewUser(userId,stream);
+ 
 })
 // input value
 let text = $("input");
@@ -81,7 +81,7 @@ peer.on('open', id => {
 
 
   const scrollToBottom = () => {
-    var d = $('.main__chat_window');
+    var d = $('.main-chat-window');
     d.scrollTop(d.prop("scrollHeight"));
   }
 
@@ -134,7 +134,7 @@ const setMuteButton = () => {
     <i class="fas fa-microphone"></i>
     <span>Mute</span>
   `
-  document.querySelector('.main__mute_button').innerHTML = html;
+  document.querySelector('.main-mute-button').innerHTML = html;
 }
 
 const setUnmuteButton = () => {
@@ -142,7 +142,7 @@ const setUnmuteButton = () => {
     <i class="unmute fas fa-microphone-slash"></i>
     <span>Unmute</span>
   `
-  document.querySelector('.main__mute_button').innerHTML = html;
+  document.querySelector('.main-mute-button').innerHTML = html;
 }
 
 
@@ -151,7 +151,7 @@ const setStopVideo = () => {
     <i class="fas fa-video"></i>
     <span>Stop Video</span>
   `
-  document.querySelector('.main__video_button').innerHTML = html;
+  document.querySelector('.main-video-button').innerHTML = html;
 }
 
 const setPlayVideo = () => {
@@ -159,5 +159,5 @@ const setPlayVideo = () => {
   <i class="stop fas fa-video-slash"></i>
     <span>Play Video</span>
   `
-  document.querySelector('.main__video_button').innerHTML = html;
+  document.querySelector('.main-video-button').innerHTML = html;
 }
